@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <title>Document</title>
+    <style>
+        table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        }
+
+        td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+        }
+
+        tr:nth-child(even) {
+        background-color: #dddddd;
+        }
+    </style>
+    <style>
+        	span{
+		font-size: 25px;
+		font-family: cursive;
+		color: white;
+		animation: blink 1s linear infinite;
+	}
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}
+    </style>
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <table border="3">
+            <caption style=" background-color:red;font-size: 40px; color:black; border: 5px solid red;border-radius: 80%; width:15%; height:20%;"><span> Live Matchs !</span></caption>
+            <tr>
+                <th>Current  Events</th>
+                <th>Teams</th>
+            </tr>
+            
+            {% for d in data.data %}
+            <tr>
+                <td><a href="{% url 'team book' d.group %}" style="color:black;">{{d.group}}</a></td>
+                <td><a href="{% url 'team book' d.group %}" style="color:black;">{{d.details}}</a></td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+</body>
+</html>

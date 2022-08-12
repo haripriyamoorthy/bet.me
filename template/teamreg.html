@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+{% load static %}
+{% load bootstrap5 %}
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Team Register</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="{% static 'css/register/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css' %}">
+		<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+		<!-- STYLE CSS -->
+		<!-- <link rel="stylesheet" href="{% static 'css/register/css/style.css' %}"> -->
+	</head>
+	<body>
+		<h1>Team Register Page!</h1>
+		<center>
+			<div class="container-fluid">
+				{% if booking %}
+				<h2>Your Booking Has Been Conformed!</h2>
+				{% else %}
+				<form method="POST">
+					{% csrf_token %}
+					<br>
+					{% bootstrap_form form %}
+					<br>
+					<input type="submit" value="register" class="btn btn-primary">
+				</form>
+				{% endif %}
+			</div>
+		</center>
+		<script src="{% static 'css/register/js/jquery-3.3.1.min.js' %}"></script>
+		<script src="{% static 'css/register/js/main.js' %}"></script>
+	</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
