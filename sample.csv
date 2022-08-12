@@ -1,0 +1,57 @@
+,key,group,title,description,active,has_outrights
+0,americanfootball_cfl,American Football,CFL,Canadian Football League,TRUE,FALSE
+1,americanfootball_ncaaf,American Football,NCAAF,US College Football,TRUE,FALSE
+2,americanfootball_nfl,American Football,NFL,US Football,TRUE,FALSE
+3,americanfootball_nfl_preseason,American Football,NFL Preseason,US Football,TRUE,FALSE
+4,americanfootball_nfl_super_bowl_winner,American Football,NFL Super Bowl Winner,Super Bowl Winner 2022/2023,TRUE,TRUE
+5,aussierules_afl,Aussie Rules,AFL,Aussie Football,TRUE,FALSE
+6,baseball_mlb,Baseball,MLB,Major League Baseball,TRUE,FALSE
+7,baseball_mlb_world_series_winner,Baseball,MLB World Series Winner,World Series Winner 2022,TRUE,TRUE
+8,basketball_wnba,Basketball,WNBA,US Basketball,TRUE,FALSE
+9,cricket_odi,Cricket,One Day Internationals,One Day Internationals,TRUE,FALSE
+10,cricket_test_match,Cricket,Test Matches,International Test Matches,TRUE,FALSE
+11,golf_masters_tournament_winner,Golf,Masters Tournament Winner,2023 Winner,TRUE,TRUE
+12,golf_pga_championship_winner,Golf,PGA Championship Winner,2023 Winner,TRUE,TRUE
+13,golf_us_open_winner,Golf,US Open Winner,2023 Winner,TRUE,TRUE
+14,icehockey_sweden_hockey_league,Ice Hockey,SHL,Swedish Hockey League,TRUE,FALSE
+15,mma_mixed_martial_arts,Mixed Martial Arts,MMA,Mixed Martial Arts,TRUE,FALSE
+16,rugbyleague_nrl,Rugby League,NRL,Aussie Rugby League,TRUE,FALSE
+17,soccer_argentina_primera_division,Soccer,Primera División - Argentina,Argentine Primera División,TRUE,FALSE
+18,soccer_belgium_first_div,Soccer,Belgium First Div,Belgian First Division A,TRUE,FALSE
+19,soccer_brazil_campeonato,Soccer,Brazil Série A,Brasileirão Série A,TRUE,FALSE
+20,soccer_brazil_serie_b,Soccer,Brazil Série B,Campeonato Brasileiro Série B,TRUE,FALSE
+21,soccer_chile_campeonato,Soccer,Primera División - Chile,Campeonato Chileno,TRUE,FALSE
+22,soccer_china_superleague,Soccer,Super League - China,Chinese Soccer,TRUE,FALSE
+23,soccer_conmebol_copa_libertadores,Soccer,Copa Libertadores,CONMEBOL Copa Libertadores,TRUE,FALSE
+24,soccer_denmark_superliga,Soccer,Denmark Superliga,Danish Soccer,TRUE,FALSE
+25,soccer_efl_champ,Soccer,Championship,EFL Championship,TRUE,FALSE
+26,soccer_england_efl_cup,Soccer,EFL Cup,League Cup,TRUE,FALSE
+27,soccer_england_league1,Soccer,League 1,EFL League 1,TRUE,FALSE
+28,soccer_england_league2,Soccer,League 2,EFL League 2 ,TRUE,FALSE
+29,soccer_epl,Soccer,EPL,English Premier League,TRUE,FALSE
+30,soccer_fifa_world_cup,Soccer,FIFA World Cup,FIFA World Cup 2022,TRUE,FALSE
+31,soccer_fifa_world_cup_winner,Soccer,FIFA World Cup Winner,FIFA World Cup Winner 2022,TRUE,TRUE
+32,soccer_finland_veikkausliiga,Soccer,Veikkausliiga - Finland,Finnish  Soccer,TRUE,FALSE
+33,soccer_france_ligue_one,Soccer,Ligue 1 - France,French Soccer,TRUE,FALSE
+34,soccer_france_ligue_two,Soccer,Ligue 2 - France,French Soccer,TRUE,FALSE
+35,soccer_germany_bundesliga,Soccer,Bundesliga - Germany,German Soccer,TRUE,FALSE
+36,soccer_germany_bundesliga2,Soccer,Bundesliga 2 - Germany,German Soccer,TRUE,FALSE
+37,soccer_italy_serie_a,Soccer,Serie A - Italy,Italian Soccer,TRUE,FALSE
+38,soccer_italy_serie_b,Soccer,Serie B - Italy,Italian Soccer,TRUE,FALSE
+39,soccer_japan_j_league,Soccer,J League,Japan Soccer League,TRUE,FALSE
+40,soccer_korea_kleague1,Soccer,K League 1,Korean Soccer,TRUE,FALSE
+41,soccer_league_of_ireland,Soccer,League of Ireland,Airtricity League Premier Division,TRUE,FALSE
+42,soccer_mexico_ligamx,Soccer,Liga MX,Mexican Soccer,TRUE,FALSE
+43,soccer_netherlands_eredivisie,Soccer,Dutch Eredivisie,Dutch Soccer,TRUE,FALSE
+44,soccer_norway_eliteserien,Soccer,Eliteserien - Norway,Norwegian Soccer,TRUE,FALSE
+45,soccer_poland_ekstraklasa,Soccer,Ekstraklasa - Poland,Polish Soccer,TRUE,FALSE
+46,soccer_portugal_primeira_liga,Soccer,Primeira Liga - Portugal,Portugese Soccer,TRUE,FALSE
+47,soccer_spain_la_liga,Soccer,La Liga - Spain,Spanish Soccer,TRUE,FALSE
+48,soccer_spain_segunda_division,Soccer,La Liga 2 - Spain,Spanish Soccer,TRUE,FALSE
+49,soccer_spl,Soccer,Premiership - Scotland,Scottish Premiership,TRUE,FALSE
+50,soccer_sweden_allsvenskan,Soccer,Allsvenskan - Sweden,Swedish Soccer,TRUE,FALSE
+51,soccer_sweden_superettan,Soccer,Superettan - Sweden,Swedish Soccer,TRUE,FALSE
+52,soccer_switzerland_superleague,Soccer,Swiss Superleague,Swiss Soccer,TRUE,FALSE
+53,soccer_turkey_super_league,Soccer,Turkey Super League,Turkish Soccer,TRUE,FALSE
+54,soccer_uefa_nations_league,Soccer,UEFA Nations League,UEFA Nations League,TRUE,FALSE
+55,soccer_usa_mls,Soccer,MLS,Major League Soccer,TRUE,FALSE
